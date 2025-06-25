@@ -1883,7 +1883,7 @@ def plot_marginal_differences(model, ds_train):
     synth_norm = scaler.transform(x_synth)
 
     # 4) compute *density* histograms
-    bins = np.linspace(-4, 4, 50)
+    bins = np.linspace(-4, 4, 40)
     mids = (bins[:-1] + bins[1:]) / 2
 
     fig, axes = plt.subplots(4, 8, figsize=(24, 16), sharex=True, sharey=True)
