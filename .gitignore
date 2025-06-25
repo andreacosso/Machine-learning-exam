@@ -1,0 +1,12 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor/OS files
+.DS_Store
+
+# Large caches you don’t want to commit
+

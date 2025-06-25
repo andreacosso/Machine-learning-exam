@@ -1,0 +1,10 @@
+{
+    "n_flows": 5,
+    "hidden_units": [
+        128,
+        128
+    ],
+    "batch_size": 64,
+    "learning_rate": 0.0004,
+    "epochs": 20
+}
